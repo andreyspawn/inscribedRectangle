@@ -1,0 +1,2 @@
+# inscribedRectangle
+Logical task
