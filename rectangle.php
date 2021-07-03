@@ -44,6 +44,6 @@ function countInscribeRectangles($a,$b)
 
     return $countRectangles;
 }
-
-echo "Всего в заданную матрицу можно вписать {countInscribeRectangles($a,$b)} прямоугольников\n";
-echo countInscribeRectangles($a,$b);
+$result=countInscribeRectangles($a,$b);
+echo "Всего в заданную матрицу можно вписать {$result} прямоугольников\n";
+echo $result;
